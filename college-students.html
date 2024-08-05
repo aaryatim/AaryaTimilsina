@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+	<title>College Students’ Likelihood of Buying products based on marketing offers</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        .styled-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .styled-table th, .styled-table td {
+            border: 1px solid #dddddd;
+            padding: 8px;
+            text-align: center; /* Ensures all cells are centered */
+        }
+        
+        .styled-table th.left-align, .styled-table td.left-align {
+            text-align: left; /* Ensures left-aligned cells are left-aligned */
+        }
+
+        .header-image {
+            width: 100%;
+            max-width: 100px; /* Adjust the max-width as needed */
+            height: auto;
+            margin: 0 auto 20px; /* Center the image and add some space below it */
+            display: block;
+        }
+    </style>
+</head>
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header" class="alt">
+			<p>Author: Aarya Timilsina</p>
+		</header>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Second Section -->
+			<section id="second" class="main special">
+				<header class="major">
+					<h2>College Students’ Likelihood of Buying products based on different marketing offers</h2>
+				</header>
+				<p><strong>Title:</strong> College students’ likelihood of buying products based on different types of marketing offers</p>
+				
+				<h3><strong>Introduction</strong></h3>
+				<p>There are numerous marketing strategies targeting college students, attempting to entice them to purchase goods with various offers such as discounts or special deals. This study aims to address the research question: <strong>“Are there any differences between the preferences among college students regarding the types of marketing offers they are most likely to buy? If so, which offers lead to higher likelihood of purchase?”</strong> The objective is to investigate whether students exhibit a preference for specific types of offers and, if so, to what extent one type may be favored over another. Understanding these preferences can inform marketers in tailoring their strategies to effectively target college students. <strong>I hypothesize that there exists a difference in college students’ preferences for one offer over another.</strong></p>
+
+				<h3><strong>Method</strong></h3>
+				<p>The study utilized a randomized assignment procedure to ensure that each participant was exposed to only one of the three marketing tactics. The manipulation, involving exposure to different marketing offers, was delivered electronically through an online survey platform. The experimental units were college students taking SDS 290 class. 47 participants taking SDS 290 class were randomly assigned to one of the three conditions, wherein they were presented with a description of the assigned marketing offer and asked to provide their likelihood of buying accordingly.</p>
+				<p>To measure the response variable, the participants were asked to select on a scale of 1 to 5, how likely they were to buy the goods mentioned in each of the offers, 1 being very unlikely and 5 being most likely. There was 1 factor in total; the type of offer and 3 levels:</p>
+				<ul>
+					<li><strong>“Buy 2, Get 1 Free”</strong>: Price: $10 for one bottle. In this deal, if you purchase two bottles of shampoo at the regular price, you’ll get an additional bottle for free.</li>
+					<li><strong>“Self Care Kit”</strong>: Price: $20 for the entire kit. This deal includes a bottle of shampoo, two Snickers bars for a snack, one soap for a refreshing shower, one handwash for cleanliness, and one face mask for some pampering.</li>
+					<li><strong>“Discount Bundle”</strong>: Price: $13 for two products; one bottle of shampoo and one conditioner. In this deal, you’ll get not only a bottle of shampoo but also a bottle of conditioner. All for the discounted price of $13.</li>
+				</ul>
+				<p>The above 3 levels are referred to as Condition 1, Condition 2, and Condition 3 respectively throughout this report.</p>
+
+				<h3><strong>Results</strong></h3>
+				<p>The boxplot below shows the likelihood of purchase across the three conditions:</p>
+				<img src="images/boxplot.png" alt="Boxplot of Likelihood of Purchase by Condition" width="800" height="400"/>
+				<p>According to the boxplot, the variances between the three conditions don’t vary a lot.</p>
+
+				<table class="styled-table">
+					<thead>
+						<tr>
+							<th class="left-align">Condition</th>
+							<th class="center-align">n</th>
+							<th class="center-align">Mean</th>
+							<th class="center-align">SD</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="left-align">Cond1</td>
+							<td class="center-align">16</td>
+							<td class="center-align">2.81</td>
+							<td class="center-align">1.22</td>
+						</tr>
+						<tr>
+							<td class="left-align">Cond2</td>
+							<td class="center-align">14</td>
+							<td class="center-align">2.21</td>
+							<td class="center-align">1.42</td>
+						</tr>
+						<tr>
+							<td class="left-align">Cond3</td>
+							<td class="center-align">17</td>
+							<td class="center-align">3.59</td>
+							<td class="center-align">1.06</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<p>The table above shows descriptive statistics of the data. The largest SD is not more than two times as big as the smallest, so the condition of same standard deviations is satisfied.</p>
+
+				<p>The ANOVA test results showed statistically significant differences in students’ responses across the 3 different conditions, with F(2, 44) = 4.8487, p < 0.05.</p>
+
+				<img src="images/histogram.png" alt="Histogram of Residuals" width="800" height="400"/>
+				<p>The histogram of residuals shows that the residuals are centered around zero.</p>
+
+				<img src="images/residuals.png" alt="QQ Plot of Residuals" width="800" height="400"/>
+				<p>The QQ-plot shows some indication that the residuals are not quite normal, but the distribution of the residuals is not completely divergent from normal.</p>
+
+				<h3><strong>Conclusion</strong></h3>
+				<p>This analysis aimed to see if students favored certain offers over others when it came to making purchases. The analysis revealed statistically significant differences in the likelihood of purchase across the three conditions: <strong>“Buy 2, Get 1 Free,” “Self Care Kit,”</strong> and <strong>“Discount Bundle.”</strong> Specifically, the Fisher’s LSD test indicated a significant difference in likelihood to buy between Condition 2 (Self Care Kit) and Condition 3 (Discount Bundle).</p>
+				<p>The R-squared value tells us that the marketing offers explain a moderate portion of the variability observed in the students’ responses. According to our analysis, the <strong>“Buy 2, Get 1 Free”</strong> offer tends to be more appealing than the <strong>“Self Care Kit”</strong> offer, but it is not significantly different from the <strong>“Discount Bundle”</strong> offer in terms of likelihood of purchase.</p>
+				<p>However, it’s crucial to acknowledge the limitations of our study. While the ANOVA results suggest significant differences, our analysis is based on a relatively small dataset of 47 participants. Furthermore, although efforts were made to ensure the assumptions of ANOVA were met, there may still be unaccounted-for variables or biases that could affect the results.</p>
+				<p>To improve the robustness of future studies, increasing the sample size and diversifying the participant pool could provide a more comprehensive understanding of college students’ preferences regarding marketing offers. Additionally, conducting similar studies across different demographics could help generalize the findings beyond the scope of this specific investigation.</p>
+			</section>
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<section>
+				<h2>Contact Me</h2>
+				<p>Feel free to reach out for any collaboration or inquiries.</p>
+				
+			</section>
+			<section>
+				<h2>Contact Information</h2>
+				<dl class="alt">
+					<dt>Email</dt>
+					<dd><a href="mailto:atimilsina@smith.edu">atimilsina@smith.edu</a></dd>
+				</dl>
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/aarya-timilsina/" class="icon brands fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://github.com/aaryatim" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+				</ul>
+			</section>
+			<p class="copyright">&copy; Aarya Timilsina. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+		</footer>
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+</html>
+

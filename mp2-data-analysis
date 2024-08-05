@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>MP2 - Data Analysis</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<span class="logo"><img src="images/logo.svg" alt="" /></span>
+						<h1>MP2 - Data Analysis</h1>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Content -->
+							<section class="main">
+								<header class="major">
+									<h2>MP2 - Data Analysis</h2>
+								</header>
+								<p><strong>Research Question:</strong> Do non-cis-gendered male individuals feel less interested in sports-related topics depending on what type of sport they see a person playing in stimuli and who they see playing that sport?</p>
+								<p><strong>Hypotheses:</strong></p>
+								<ul>
+									<li><strong>Null Hypothesis (𝐻0):</strong> There is no difference in response from non-cis-gendered male individuals to questions for sports-related topics when shown a picture of boys playing soccer, girls playing soccer, boys playing basketball, girls playing basketball, and no picture at all.</li>
+									<li><strong>Alternative Hypothesis (𝐻𝑎):</strong> There is a difference in response from non-cis-gendered male individuals to questions for sports-related topics when shown a picture of boys playing soccer, girls playing soccer, boys playing basketball, girls playing basketball, and no picture at all.</li>
+								</ul>
+								<p><strong>Methods:</strong> Participants were shown either a picture of boys playing soccer or basketball, girls playing soccer or basketball, or no picture at all, and then answered questions about their interest in sports, participation in sports, and watching sports. Participants rated their interest on a scale from least interested (0) to most interested (10). The study included two factors: the type of sport displayed and the gender of the models in the image.</p>
+								<p><strong>Results:</strong> There were no statistically significant differences in the interest, participation, and watching sports among non-cis-gendered male individuals based on the type of sport or the gender of the stimuli.</p>
+								<p><strong>Conclusion:</strong> The study concluded that there were no statistically significant differences in the interest, participation, and watching sports among non-cis-gendered male individuals based on the type of sport or the gender of the stimuli. The null hypothesis was not rejected.</p>
+								<p><strong>Limitations and Future Research:</strong></p>
+								<ul>
+									<li>The wording of the questions could lead to misunderstandings, and the age of the characters in the stimuli may have influenced responses.</li>
+									<li>Future research should increase the variety of stimuli, improve the precision of the questions, and increase the sample size for more accurate findings.</li>
+								</ul>
+								<p>Closing the participation gap between genders in sports can enhance psychological and social health outcomes for all participants, regardless of gender identity.</p>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="index.html#third" class="button">Back</a></li>
+									</ul>
+								</footer>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>Contact Me</h2>
+							<p>Feel free to reach out for any collaboration or inquiries.</p>
+							<ul class="actions">
+								<li><a href="generic.html" class="button">Learn More</a></li>
+							</ul>
+						</section>
+						<section>
+							<h2>Contact Information</h2>
+							<dl class="alt">
+								<dt>Email</dt>
+								<dd><a href="mailto:atimilsina@smith.edu">atimilsina@smith.edu</a></dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="https://www.linkedin.com/in/aarya-timilsina/" class="icon brands fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/aaryatim" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+							</ul>
+						</section>
+						<p class="copyright">&copy; Aarya Timilsina. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
